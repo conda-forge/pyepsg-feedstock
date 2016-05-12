@@ -5,7 +5,7 @@ Home: https://pypi.python.org/pypi/pyepsg
 
 Package license: LGPL
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Easy access to the EPSG database via http://epsg.io/
 
@@ -69,9 +69,15 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyepsg-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/pyepsg-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyepsg-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyepsg-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyepsg-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyepsg-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyepsg/badges/version.svg)](https://anaconda.org/conda-forge/pyepsg)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyepsg/badges/downloads.svg)](https://anaconda.org/conda-forge/pyepsg)
 
 
 Updating pyepsg-feedstock
