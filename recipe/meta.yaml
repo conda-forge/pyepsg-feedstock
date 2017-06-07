@@ -1,4 +1,4 @@
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: pyepsg
@@ -7,7 +7,7 @@ package:
 source:
   fn: pyepsg-{{ version }}.tar.gz
   url: https://github.com/rhattersley/pyepsg/archive/v{{ version }}.tar.gz
-  sha256: e278656ad5fbe5ec97d08f690fa18b3d9149e842b4c6f383409aee5c5e8bf528
+  sha256: 2af92df0f398db458485b76d58ba8303202c93ed30ccd27c4c6463e90b4a79d2
 
 build:
   number: 0
