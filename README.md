@@ -14,14 +14,15 @@ Summary: Easy access to the EPSG database via http://epsg.io/
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyepsg-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyepsg-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyepsg-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyepsg-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyepsg-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyepsg-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pyepsg-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pyepsg-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyepsg/badges/version.svg)](https://anaconda.org/conda-forge/pyepsg)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyepsg/badges/downloads.svg)](https://anaconda.org/conda-forge/pyepsg)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pyepsg-green.svg)](https://anaconda.org/conda-forge/pyepsg) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyepsg.svg)](https://anaconda.org/conda-forge/pyepsg) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyepsg.svg)](https://anaconda.org/conda-forge/pyepsg) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyepsg.svg)](https://anaconda.org/conda-forge/pyepsg) |
 
 Installing pyepsg
 =================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
