@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://github.com/rhattersley/pyepsg/archive/v{{ version }}.tar.gz
-  sha256: dbb3ac98c1964765be5b0826fddb14b0d51b3616d7a356e856fa6e8e9480bcd7
+  sha256: 2737302c3661464a867d1844ab1adab046ccbf763edd54140811e21238894f05
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv"
 
 requirements:
   host:
