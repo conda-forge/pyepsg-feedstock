@@ -1,17 +1,17 @@
-{% set version = "0.3.2" %}
+{% set version = "0.4.0" %}
 
 package:
   name: pyepsg
   version: {{ version }}
 
 source:
-  url: https://github.com/rhattersley/pyepsg/archive/v{{ version }}.tar.gz
-  sha256: 2af92df0f398db458485b76d58ba8303202c93ed30ccd27c4c6463e90b4a79d2
+  url: https://pypi.io/packages/source/p/pyepsg/pyepsg-{{ version }}.tar.gz
+  sha256: 2d08fad1e7a8b47a90a4e43da485ba95705923425aefc4e2a3efa540dbd470d7
 
 build:
-  number: 1
+  number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv"
 
 requirements:
   host:
