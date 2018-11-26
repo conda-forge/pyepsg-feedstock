@@ -5,8 +5,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/rhattersley/pyepsg/archive/v{{ version }}.tar.gz
-  sha256: 2737302c3661464a867d1844ab1adab046ccbf763edd54140811e21238894f05
+  url: https://pypi.io/packages/source/p/pyepsg/pyepsg-{{ version }}.tar.gz
+  sha256: 2d08fad1e7a8b47a90a4e43da485ba95705923425aefc4e2a3efa540dbd470d7
 
 build:
   number: 0
